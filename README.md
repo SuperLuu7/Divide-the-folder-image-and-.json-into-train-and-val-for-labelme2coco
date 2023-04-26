@@ -13,9 +13,9 @@ of labelme annotation json to coco annotation file.
 
 Command to get coco annotation file: path/to/labelme/dir should includs img and json
 Advanced Usage see https://github.com/fcakyon/labelme2coco 
-### Notice: in this labelme2coco code, you can modify category_ind value(in labelme2coco.py)
- from 0 to 1. So that object labels start at 1 instead of 0. 0 means the object background.
- And you can do not that object labels start at 0.
+Notice: in this labelme2coco code, you can modify category_ind value(in labelme2coco.py)
+from 0 to 1. So that object labels start at 1 instead of 0. 0 means the object background.
+And you can do not that object labels start at 0.
 
 To use this tool:
 $conda activate labelme
