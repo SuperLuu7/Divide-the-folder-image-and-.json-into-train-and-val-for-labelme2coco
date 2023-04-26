@@ -1,4 +1,5 @@
-# The-images-and-json-annotation-folders-are-divided-into-train-and-val-subfolders-for-labelme2coco
+# The images and .json annotation folder is divided into train and val subfolders for labelme2coco.
+Before, the image and the corresponding annotation files were in one folder, but later they were divided into train and val folders. 
 The images and json annotation folders are divided into train and val subfolders for labelme2coco. The usage method is described in the file.
 
 This file  automatically divides the train, val directory according to
