@@ -27,6 +27,12 @@ labelme2coco path/to/labelme/dir
 
 Instead of this labelme2coco tool, you also can use another code to operate labelme2coco.
 It is recommended to use this. You can modify the pathname or filename.
-Installation and usage see:https://github.com/wkentaro/labelme 
+Installation and usage see:https://github.com/wkentaro/labelme/tree/main/examples/instance_segmentation 
+
+Reference command usage:
+```
+conda activate labelme
+./labelme/examples/instance_segmentation/labelme2coco.py ./realsense/priority_test3_coco/train2017/ ./realsense/priority_test3_coco/train --labels realsense/priority_test3_coco/train2017/labels.txt
+```
 
 Finally modify the folder name to [reconstruct the structure](https://github.com/facebookresearch/detectron2/blob/main/datasets/README.md).
